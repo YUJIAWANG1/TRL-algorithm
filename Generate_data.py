@@ -280,8 +280,7 @@ if __name__ == "__main__":
 
 
 
- 
- 
+
 
     plt.figure(1, figsize=(4, 4))
     plt.plot(t_list, u1_list, "r")
@@ -292,14 +291,7 @@ if __name__ == "__main__":
     plt.xlabel('Time')
     
 
- 
 
-    fig = plt.figure(2, figsize=(4, 4))
-    sub = fig.add_subplot(111, projection='3d')  # 3d表示三维图像
-    sub.set_xlabel(r'$x$')
-    sub.set_ylabel(r'$y$')
-    sub.set_zlabel(r'$z$')
-    cmp = plt.cm.Purples
 
     plt.figure(6, figsize=(4, 4))
     plt.plot(t_list, x1_list, "r")
